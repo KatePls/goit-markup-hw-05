@@ -7,7 +7,8 @@
     --main-medium-color-opacity: rgba(255, 255, 255, 0.6);
     --border-line-color: #ECECEC;
     --border-img-color: #EEEEEE;
-    --backgr-color: #2F303A;
+    --backgr-color: #2f303a;
+    --backgr-color-opacity: rgba(47, 48, 58, 0.8);
     --backgr-color-section:#F5F4FA;
     --color-svg: #AFB1B8;
 
@@ -216,6 +217,24 @@ color: var(--main-dark-color);
 .description-img-list, .team-list{
 display: flex;
 justify-content: space-between;
+}
+
+.description-img-item{
+    position: relative;
+}
+.overlay-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-light-color); 
+    background-color: var(--backgr-color-opacity); 
+    padding: 27px 0;  
 }
 /*============  END  SECTION ABOUT =============*/
 
