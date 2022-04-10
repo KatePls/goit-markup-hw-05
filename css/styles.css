@@ -1,5 +1,5 @@
 :root {
-    --brand-color: #2196F3;
+    --brand-color: magenta; /*#2196F3;*/
     --brand-color-hover:#188CE8;
     --brand-color-opacity: rgba(33, 150, 243, 0.9);
     --main-light-color: #FFFFFF;
